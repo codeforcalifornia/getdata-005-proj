@@ -1,7 +1,7 @@
 getdata-005-proj
 ================
 
-This is thr code to produce the project solution for Getting and Cleaning
+This is the code to produce the project solution for Getting and Cleaning
 Data.  It performs the following:
 
 It merges the training and test sets to create one data set.
@@ -21,5 +21,6 @@ columns without hard-coding the column number, and done a lot of cleanup.  But,
 due to time pressures, this is what I have instead.
 
 Heavy use of the dataset from the following publication is used in this assignment:
+
 [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
