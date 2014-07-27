@@ -55,7 +55,7 @@ names(tidy_data)[ncol(ms_cols)+2] <- "subject"
 
 # Write out the tidy data set
 # Since we will only be submitting the 2nd data set, do not print this one out.
-write.table(tidy_data, file="tidy_data.txt")
+#write.table(tidy_data, file="tidy_data.txt")
 
 subjects <- c(1, 11, 14, 15, 16, 17, 19, 21, 22, 23, 25, 26, 27, 28, 29, 3, 30, 5, 6, 7, 8)
 
@@ -75,9 +75,9 @@ for (subject_idx in 1:length(subjects)) {
         }
         ds2[subscript,ncol(x_data) + 1] <- activity
         ds2[subscript,ncol(x_data) + 2] <- subjects[subject_idx]
-        print('Incoming data mean')
-        print(ds2[subscript,])
-        print('End data mean')
+#        print('Incoming data mean')
+#        print(ds2[subscript,])
+#        print('End data mean')
     }
 }
 
