@@ -19,3 +19,7 @@ Had I the time, I would have preferred to programmatically obtain the position
 of columns using string pattern matching, added the subject and activity
 columns without hard-coding the column number, and done a lot of cleanup.  But,
 due to time pressures, this is what I have instead.
+
+Heavy use of the dataset from the following publication is used in this assignment:
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+

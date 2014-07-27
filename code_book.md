@@ -10,6 +10,8 @@ The data is split into general activities - tBodyAcc, tGravityAcc, tBodyAccJerk,
 
 There is a further breakdown of data into mean, standard deviation (std), median absolute deviation (mad), max, min, signal magnitude area (sma), energy, interquartile range (iqr), signal entropy, Autoregression coefficients (arcoeff), correlation, maxInds, meanfreq, skewness, kurtosis, bandsenergy, and angle.
 
+Acceleration values are in standard gravity units 'g'.  The body acceleration signal is obtained by subtracting the gravity from the total acceleration.  The angular velocity vector is in radians/second.
+
 "tBodyAcc-mean()-X"
 "tBodyAcc-mean()-Y"
 "tBodyAcc-mean()-Z"
@@ -573,3 +575,8 @@ There is a further breakdown of data into mean, standard deviation (std), median
 "angle(Z,gravityMean)"
 "activity"
 "subject.id"
+
+
+This dataset is derived from the dataset as referenced by the following publication:
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
