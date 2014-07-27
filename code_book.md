@@ -1,3 +1,8 @@
+
+This is the codebook for the tidy data set created by run_analysis.R, which transforms the "UCI HAR Dataset.zip" data.
+
+
+
 tBodyAcc-mean()-X
 tBodyAcc-mean()-Y
 tBodyAcc-mean()-Z
